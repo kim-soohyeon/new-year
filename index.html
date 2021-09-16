@@ -102,13 +102,32 @@
         .rtans {
             display: flex;
             flex-direction: row;
-            justify-content: center;
-            flex-wrap: wrap;
+            justify-content: center;            
+            flex-wrap: wrap;/* 이미지 사이즈 유지 */
             width: 1200px;
             margin: auto;
         }
         .rtans > a:hover {
             background-color: darkred;
+        }
+        
+        /* 스크린 사이즈가 780px이하일 때(모바일 환경) */
+        @media screen and (max-width: 780px) {
+            body {
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+            .rtans {
+                /* 스크린사이즈와 딱맞게 조절 */
+                width: 100%;
+            }
+            .mytitle {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .rtans > a {
+                color: darkred;
+            }
         }
     </style>
 </head>

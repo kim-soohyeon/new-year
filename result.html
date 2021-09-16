@@ -86,6 +86,26 @@
             cursor: pointer;
             margin-left: 10px;
         }
+
+        /* 스크린 사이즈가 780px이하일 때(모바일 환경) */
+        @media screen and (max-width: 780px) {
+            body {
+                background-position: 70px -70px;
+                background-size: 500px;
+            }
+            .rtan {
+                margin-top: 50px;
+            }
+            .msg {
+                font-size: 24px;
+                line-height: 36px;
+                margin-bottom: 36px;
+                padding: 10px;
+            }
+            .msg > br {
+                display: none;                
+            }
+        }
     </style>
 </head>
 
