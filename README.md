@@ -2,7 +2,8 @@
 
 - **url**
 
-    [신년운세 by 수현!](https://new-year.spartacodingclub.kr/DvJ5GKwKhCfZ/index.html)
+    - [신년운세 by 수현!](https://new-year.spartacodingclub.kr/DvJ5GKwKhCfZ/index.html)
+    - [신년운세 by 수현!(GitHub Pages)](https://kim-soohyeon.github.io/new-year/)
 
 - **사용 기술:** html, css, javascript
 - **메인 화면(index.html)**
